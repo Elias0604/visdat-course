@@ -2,13 +2,13 @@
 const config = {
   title: 'Visualisierung & Datenaufbereitung',
   tagline: 'VIS3VO Course Materials',
-  url: 'https://YOUR_GITHUB_USERNAME.github.io', // Replace with your GitHub username
-  baseUrl: '/visdat-course-skeleton/', // Replace with your repository name
+  url: 'https://soberpe.github.io',
+  baseUrl: '/visdat-course-skeleton/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'YOUR_GITHUB_USERNAME', // Replace with your GitHub username
-  projectName: 'visdat-course-skeleton', // Replace with your repository name
+  organizationName: 'soberpe',
+  projectName: 'visdat-course-skeleton',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
   presets: [
@@ -16,7 +16,7 @@ const config = {
       docs: { 
         routeBasePath: '/', 
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/YOUR_GITHUB_USERNAME/visdat-course-skeleton/tree/main/',
+        editUrl: 'https://github.com/soberpe/visdat-course-skeleton/tree/main/',
       },
       blog: false, 
       theme: { 
@@ -29,7 +29,7 @@ const config = {
       title: 'VIS3VO',
       items: [
         {
-          href: 'https://github.com/YOUR_GITHUB_USERNAME/visdat-course-skeleton',
+          href: 'https://github.com/soberpe/visdat-course-skeleton',
           label: 'GitHub',
           position: 'right',
         },
