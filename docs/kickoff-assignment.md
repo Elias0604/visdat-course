@@ -126,7 +126,7 @@ Install these essential extensions:
 
 ### Step 1: Fork the Course Repository
 
-1. Go to the course repository: `https://github.com/soberpei/visdat-course`
+1. Go to the course repository: `https://github.com/soberpe/visdat-course`
 2. Click the "Fork" button in the top-right corner
 3. Choose your GitHub account as the destination
 
@@ -147,7 +147,7 @@ cd visdat-course
 
 ```bash
 # Add upstream remote to stay in sync with the main repository
-git remote add upstream git@github.com/soberpei/visdat-course.git
+git remote add upstream git@github.com/soberpe/visdat-course.git
 
 # Verify remotes
 git remote -v

@@ -5,12 +5,15 @@ const config = {
   url: 'https://soberpe.github.io',
   baseUrl: '/visdat-course/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
   organizationName: 'soberpe',
   projectName: 'visdat-course',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   presets: [
     ['@docusaurus/preset-classic', {
       docs: { 
